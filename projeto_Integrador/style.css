@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+header {
+    display: flex;
+    background-color: hsl(0, 0%, 15%);
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10dvh;
+    height: 70dvh;
+    align-items: center;
+}
+
+#login {
+    width: clamp(100px, 60%, 100%);
+    height: clamp(100px, 10dvh, 100%);
+    padding: 20px;
+    font-size: clamp(1.5rem, 3.5dvh , 3rem);
+    margin: 20px;
+}
+
+#senha {
+    width: clamp(100px, 60%, 100%);
+    height: clamp(100px, 10dvh, 100%);
+    padding: 20px;
+    font-size: clamp(1.5rem, 3.5dvh , 3rem);
+    margin: 20px;
+}
+
+#bt_login {
+    width: clamp(50px, 25%, 100%);
+    height: clamp(50px, 6.5dvh, 100%);
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-size: clamp(1.5rem, 3.5dvh , 3rem);
+    margin: 40px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+footer {
+    margin-bottom: auto;
+    height: 13dvh;
+    background-color: hsl(0, 0%, 15%);
+    color: white;
+}
+
+main p {
+    font-size: clamp(1.2rem, .5dvh , 3rem);
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+main p a {
+    text-decoration: none;
+    cursor: pointer;
+}
